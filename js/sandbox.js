@@ -40,16 +40,16 @@ console.log(index);
 
 
 // common string methods
-let email = "mario@thenetninja.co.uk";
-// let result = email.lastIndexOf("n");
+let userEmail = "mario@thenetninja.co.uk";
+// let result = userEmail.lastIndexOf("n");
 
-//let result = email.slice(0, 5);
+//let result = userEmail.slice(0, 5);
 
-// let result = email.substring(0);
+// let result = userEmail.substring(0);
 
-//let result = email.replace("m", "w");
+//let result = userEmail.replace("m", "w");
 
-let result = email.replaceAll("n", "w");
+let result = userEmail.replaceAll("n", "w");
 
 console.log(result);
 
@@ -80,9 +80,12 @@ let result = 5 * (10 - 3) ** 2;
 */
 
 let likes = 10;
-likes = likes + 1;
-likes++;
+//likes = likes + 1;
+//likes++;
 
-console.log(likes);
+//console.log(likes);
 
 //console.log(result);
+
+likes += 10;
+console.log(likes);
