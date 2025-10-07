@@ -15,5 +15,74 @@ console.log(point);
 
 var score = 75;
 console.log(score);
-*/
+
 alert("hello from the sandbox");
+
+let email = "mairo@thenetninja.co.uk";
+console.log(email);
+
+let firstName = "Mairo";
+let lastName = "Adeleke";
+let fullName = firstName + " " + lastName;
+console.log(fullName);
+console.log(fullName[0]);
+console.log(fullName.length);
+
+console.log(fullName.toUpperCase());
+
+let result = fullName.toLowerCase();
+
+console.log(result, fullName);
+
+let index = email.indexOf("@");
+
+console.log(index);
+
+
+// common string methods
+let email = "mario@thenetninja.co.uk";
+// let result = email.lastIndexOf("n");
+
+//let result = email.slice(0, 5);
+
+// let result = email.substring(0);
+
+//let result = email.replace("m", "w");
+
+let result = email.replaceAll("n", "w");
+
+console.log(result);
+
+*/
+/*
+// math below
+
+let radius = 10;
+const pi = 3.14;
+//console.log(radius, pi);
+// console.log(radius, pi);
+// math operators +, -, *, /, **, %
+//console.log(10 / 2);
+//let result = radius % 3;
+
+let result = 5 * (10 - 3) ** 2;
+//let result = radius * 2 + pi;
+//let result = radius % 3;
+//console.log(result);
+
+
+
+
+
+
+
+
+*/
+
+let likes = 10;
+likes = likes + 1;
+likes++;
+
+console.log(likes);
+
+//console.log(result);
